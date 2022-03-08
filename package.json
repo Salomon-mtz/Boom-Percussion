@@ -1,0 +1,19 @@
+{
+  "name": "boom-percussion",
+  "version": "1.0.0",
+  "description": "Boom Percussion Web Page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salomon-mtz/Boom-Percussion.git"
+  },
+  "author": "Boom Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salomon-mtz/Boom-Percussion/issues"
+  },
+  "homepage": "https://github.com/Salomon-mtz/Boom-Percussion#readme"
+}
