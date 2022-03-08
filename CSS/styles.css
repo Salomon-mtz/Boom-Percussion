@@ -1,0 +1,128 @@
+.jumbotron-index {
+    background-color: gray;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px; }
+  
+  .jumbotron-contact {
+    background-color: gray;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px; }
+  
+  .jumbotron-prices {
+    background-color: gray;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px; }
+  
+  .jumbotron-terms {
+    background-color: gray;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px; }
+  
+  .jumbotron-about {
+    background-color: gray;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px; }
+  
+  .btn {
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 0px; }
+  
+  .footer-index {
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: white; }
+  
+  .footer-about {
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: white; }
+  
+  .footer-prices {
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: white; }
+  
+  .footer-terms {
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: white; }
+  
+  .footer-contact {
+    background-color: gray;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: white; }
+  
+  .card-hotel {
+    flex: 1 400px;
+    margin-top: 10px; }
+  
+  .card-img-top {
+    padding: 0px 0px 10px 0px; }
+  
+  .img-fluid {
+    width: 100%;
+    height: 300px; }
+  
+  .navbar-nav .nav-item-current {
+    font-weight: bolder;
+    background-color: black;
+    padding: 1px 1px 1px 1px; }
+  
+  .breadcrumb {
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px 5px 10px 5px; }
+  
+  .footer-icon {
+    padding-right: 10px; }
+  
+  .card-hotel-price {
+    flex: 1 500px;
+    padding: 5px 8px 5px 8px;
+    margin-top: 10px; }
+  
+  .contact {
+    text-align: center;
+    font-size: 30px; }
+  
+  .form-group {
+    padding: 10px 10px 10px 0px; }
+  
+  .tab-content {
+    padding: 10px; }
+  
+  .btn-contacto {
+    background-color: gray; }
+  
