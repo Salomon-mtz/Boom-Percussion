@@ -1,7 +1,59 @@
+@font-face {
+  font-family: Atarian;
+  src: url(/Fonts/sf_atarian_system-webfont.woff);
+}
+@font-face {
+  font-family: AtarianBold;
+  src: url(/Fonts/sf_atarian_system_bold-webfont.woff);
+}
+@font-face {
+  font-family: AtarianItalic;
+  src: url(/Fonts/sf_atarian_system_bold_italic-webfont.woff);
+}
+
+a.nav-link{
+  font-family: AtarianBold;
+  font-size: 40px;
+  color: #F1802D;
+}
+
+a.nav-link:hover{
+  font-family: AtarianBold;
+  font-size: 40px;
+  color: #913c00;
+}
+
+article h1.title{
+  font-family: AtarianBold;
+  font-size: 50px;
+}
+
+article h3.subtitle{
+  font-family: Atarian;
+  font-size: 35px;
+}
+
+article p.about-game{
+  text-align: justify;
+}
+
+article p.text{
+  font-family: Atarian;
+  font-size: 20px;
+}
+
+form label{
+  font-family: Atarian;
+  font-size: 20px;
+}
+
+
 footer {
   background-color: gray;
   color: #ffffff; 
   margin-top: 20px;
+  font-family: Atarian;
+  font-size: 20px;
 }
 
 footer .row{
@@ -15,10 +67,13 @@ article .row{
 }
 
 
-
+nav.navbar{
+  background-color: #123740;
+}
 .navbar-nav .nav-item-current {
   font-weight: bolder;
-  background-color: black;
+  border-radius: 25px;
+  background-color: #243f46;
   padding: 1px 1px 1px 1px; 
 }
 
@@ -34,6 +89,29 @@ nav li.nav-item-current{
   margin-right: 50px;
 }
 
+nav a.btn.register{
+  margin-right: 80px;
+  background-color: #B0D7E1;
+  border-radius: 15px;
+  font-family: AtarianBold;
+  font-size: 30px;
+  color: #549AAB;
+}
+
+nav a.btn.login{
+  margin-right: 60px;
+  background-color: #B0D7E1;
+  border-radius: 15px;
+  font-family: AtarianBold;
+  font-size: 30px;
+  color: #549AAB;
+}
+
+nav a.btn:hover{
+  color: #2c4e57;
+}
+
+
 
 .logo{
   width: 150px;
@@ -45,8 +123,12 @@ nav li.nav-item-current{
   margin: 0 auto;
   display: flex;
   padding-top: 50px;
+  font-family: Atarian;
 }
 
+article i.icon{
+  font-size: 30px;
+}
 
 
 form.container{
@@ -56,3 +138,15 @@ form.container{
 form .checkbox{
   margin-top: 10px;
 }
+
+div button.btn{
+  background-color: #B0D7E1;
+  border-radius: 15px;
+  font-family: AtarianBold;
+  font-size: 30px;
+  color: #549AAB;
+  border: 0px;
+}
+
+
+
