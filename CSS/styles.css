@@ -1,21 +1,58 @@
 footer {
   background-color: gray;
   color: #ffffff; 
+  margin-top: 20px;
 }
 
 footer .row{
   justify-content: space-between;
 }
 
+
+
 article .row{
   justify-content: center;
 }
 
+
+
 .navbar-nav .nav-item-current {
   font-weight: bolder;
   background-color: black;
-  padding: 1px 1px 1px 1px; }
+  padding: 1px 1px 1px 1px; 
+}
+
+nav #navbarSupportedContent{
+  justify-content: center;
+}
+
+nav li.nav-item{
+  margin-right: 50px;
+}
+
+nav li.nav-item-current{
+  margin-right: 50px;
+}
+
 
 .logo{
   width: 150px;
+}
+
+.logo-sign{
+  overflow: hidden;
+  max-width: 30%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+}
+
+
+
+form.container{
+  max-width: 500px;
+}
+
+form .checkbox{
+  margin-top: 10px;
 }
