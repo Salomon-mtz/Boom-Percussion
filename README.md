@@ -71,6 +71,18 @@ npm run dev
 npm install --save bootstrap
 ```
 
+## How to add jquery
+
+```
+npm install --save jquery
+```
+
+## How to add popper.js
+
+```
+npm install --save popper.js
+```
+
 ## How to clean repository files
 
 ```
