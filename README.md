@@ -132,3 +132,7 @@ git push origin "new branch name"
 ```
 Example:  Create a pull request for 'video' on GitHub by visiting: https://github.com/Salomon-mtz/fratellis-front/pull/new/video
 ```
+
+## Animations
+
+https://codepen.io/EvyatarDa/pen/waKXMd
