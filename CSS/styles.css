@@ -172,3 +172,16 @@ div.video{
     transform: rotateX(0);
   }
 }
+
+
+div.card{
+  width: 466px;
+}
+
+div.card.card-1, .card-3{
+  margin-right: 20px;
+}
+
+div.row.row-1{
+  margin-bottom: 20px;
+}
