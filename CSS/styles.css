@@ -49,7 +49,7 @@ form label{
 
 
 footer {
-  background-color: gray;
+  background-color:#123740;
   color: #ffffff; 
   margin-top: 20px;
   font-family: Atarian;
@@ -111,6 +111,12 @@ nav a.btn:hover{
   color: #2c4e57;
 }
 
+.navbar-toggle{
+  color:white
+}
+.navbar-toggler-icon{
+  color: red;
+}
 
 
 .logo{
@@ -128,6 +134,11 @@ nav a.btn:hover{
 
 article i.icon{
   font-size: 30px;
+}
+
+img.photo{
+  max-width: 40%;
+  align-items: center;
 }
 
 
