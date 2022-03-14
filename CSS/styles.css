@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
   font-family: Atarian;
   src: url(/Fonts/sf_atarian_system-webfont.woff);
@@ -47,6 +49,13 @@ form label{
   font-size: 20px;
 }
 
+/* Fonts */
+
+
+
+
+
+/* Footer */
 
 footer {
   background-color:#123740;
@@ -59,13 +68,29 @@ footer {
 footer .row{
   justify-content: space-between;
 }
+div.text-center.row.d-flex{
+  max-width: 100%;
+}
+
+/* Footer */
 
 
+
+
+
+/* Article */
 
 article .row{
   justify-content: center;
 }
 
+/* Article */
+
+
+
+
+
+/* Navbar */
 
 nav.navbar{
   background-color: #123740;
@@ -118,6 +143,13 @@ nav a.btn:hover{
   color: red;
 }
 
+/* Navbar */
+
+
+
+
+
+/* Photos */
 
 .logo{
   width: 150px;
@@ -137,13 +169,19 @@ article i.icon{
 }
 
 img.photo{
-  max-width: 40%;
-  align-items: center;
+  max-width: 50%;
 }
 
+/* Photos */
+
+
+
+
+
+/* Form */
 
 form.container{
-  max-width: 500px;
+  max-width: 650px;
 }
 
 form .checkbox{
@@ -159,7 +197,17 @@ div button.btn{
   border: 0px;
 }
 
+form.contact{
+  margin-top: 20px;
+}
 
+/* Form */
+
+
+
+
+
+/* Video */
 
 div.video{
   max-width: 100vw;
@@ -168,8 +216,16 @@ div.video{
   height: 100%;
 }
 
+/* Video */
+
+
+
+
+
+/* Transitions */
+
 .transition{
-  animation: transitionIn 0.75s;
+  animation: transitionIn 1.5s;
 }
 
 @keyframes transitionIn{
@@ -184,6 +240,12 @@ div.video{
   }
 }
 
+/* Transitions */
+
+
+
+
+/* Cards */
 
 div.card{
   width: 466px;
@@ -196,3 +258,5 @@ div.card.card-1, .card-3{
 div.row.row-1{
   margin-bottom: 20px;
 }
+
+/* Cards */
