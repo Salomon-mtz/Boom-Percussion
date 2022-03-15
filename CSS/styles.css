@@ -140,7 +140,7 @@ nav a.btn:hover{
   color:white
 }
 .navbar-toggler-icon{
-  color: red;
+  font-size: 20px;
 }
 
 /* Navbar */
@@ -184,6 +184,11 @@ article.container.row{
   margin: 0 auto;
 }
 
+div.transition{
+  margin-bottom: 70px;
+}
+/* Containers */
+
 
 
 
@@ -193,6 +198,7 @@ article.container.row{
 form.container{
   max-width: 650px;
   margin-top: 30px;
+  margin: 0 auto;
 }
 
 form .checkbox{
@@ -230,6 +236,18 @@ iframe.embed-responsive-item{
 }
 
 /* Video */
+
+
+
+
+
+/* Carousel */
+
+div#carousel.container.carousel.slide{
+  max-width: 70%;
+}
+
+/* Carousel */
 
 
 
