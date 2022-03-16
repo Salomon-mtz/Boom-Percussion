@@ -77,6 +77,16 @@ table td.text{
   font-size: 20px;
 }
 
+h1.header{
+  font-family: AtarianBold;
+  font-size: 25px;
+}
+
+p.body{
+  font-family: Atarian;
+  font-size: 20px;
+}
+
 /* Fonts */
 
 
@@ -194,6 +204,27 @@ img.time{
 img.graph{
   max-width: 40%;
 }
+
+img.photo{
+  max-width: 100%;
+  width: 150px;
+}
+
+img#alien.photo{
+  max-width: 100%;
+  width: 300px;
+}
+
+.bi-github::before {
+  font-size: 25px;
+  color: #123740;
+  margin: 0px 20px 0px 0px;
+}
+
+.bi-linkedin::before {
+  font-size: 25px;
+  color: #549AAB;
+}
 /* Images */
 
 
@@ -231,6 +262,10 @@ section.container-fluid{
 
 section.objectives div.col-md-2{
   width: 370px;
+}
+
+div.links{
+  justify-content: space-between;
 }
 /* Containers */
 
@@ -302,7 +337,7 @@ div#carousel.container-fluid.carousel.slide{
 
 
 
-/* Transitions */
+/* Transitions  and Animations*/
 
 .transition{
   animation: transitionIn 1.5s;
@@ -320,7 +355,7 @@ div#carousel.container-fluid.carousel.slide{
   }
 }
 
-/* Transitions */
+/* Transitions and Animations*/
 
 
 
@@ -337,6 +372,10 @@ div.card.card-1, .card-3{
 
 div.row.row-1{
   margin-bottom: 20px;
+}
+
+article.card-deck{
+  display: flex;
 }
 
 /* Cards */
