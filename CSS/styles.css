@@ -37,6 +37,14 @@ article h3.subtitle{
 
 article p.about-game{
   text-align: justify;
+  font-family: Atarian;
+  font-size: 25px;
+}
+
+article p.story{
+  text-align: justify;
+  font-family: Atarian;
+  font-size: 25px;
 }
 
 article p.text{
@@ -45,6 +53,26 @@ article p.text{
 }
 
 form label{
+  font-family: Atarian;
+  font-size: 20px;
+}
+
+div h2.title{
+  font-family: AtarianBold;
+  font-size: 45px;
+}
+
+div h3.subtitle{
+  font-family: Atarian;
+  font-size: 35px;
+}
+
+table th.title{
+  font-family: AtarianBold;
+  font-size: 45px;
+}
+
+table td.text{
   font-family: Atarian;
   font-size: 20px;
 }
@@ -63,28 +91,18 @@ footer {
   margin-top: 20px;
   font-family: Atarian;
   font-size: 20px;
+  margin-bottom: 0;
 }
 
 footer .row{
   justify-content: space-between;
 }
+
 div.text-center.row.d-flex{
   max-width: 100%;
 }
 
 /* Footer */
-
-
-
-
-
-/* Article */
-
-article .row{
-  justify-content: center;
-}
-
-/* Article */
 
 
 
@@ -149,7 +167,7 @@ nav a.btn:hover{
 
 
 
-/* Photos */
+/* Images */
 
 .logo{
   width: 70px;
@@ -173,7 +191,14 @@ img.img-fluid.photo{
   max-width: 100%;
 }
 
-/* Photos */
+img.time{
+  max-width: 100%;
+}
+
+img.graph{
+  max-width: 40%;
+}
+/* Images */
 
 
 
@@ -184,7 +209,27 @@ article.container.row{
   margin: 0 auto;
 }
 
-div.transition{
+div.transition#contact{
+  margin-bottom: 70px;
+}
+
+div.col-sm-2.time-body{
+  margin-top: 25px;
+}
+
+div.row.d-flex#time{
+  margin-bottom: 30px;
+}
+
+article.graph{
+  text-align: center;
+}
+
+article .row{
+  justify-content: center;
+}
+
+section.container{
   margin-bottom: 70px;
 }
 /* Containers */
@@ -233,6 +278,10 @@ div.video{
 iframe.embed-responsive-item{
   width: 100%;
   height: 100%;
+}
+
+div.video{
+  margin-bottom: 60px;
 }
 
 /* Video */
