@@ -154,11 +154,8 @@ nav a.btn:hover{
   color: #2c4e57;
 }
 
-.navbar-toggle{
-  color:white
-}
-.navbar-toggler-icon{
-  font-size: 20px;
+div#navbarSupportedContent.collapse.navbar-collapse{
+  margin-left: 40px;
 }
 
 /* Navbar */
@@ -177,10 +174,9 @@ nav a.btn:hover{
 .logo-sign{
   overflow: hidden;
   max-width: 20%;
-  margin: 0 auto;
+  margin: 0 auto 25px auto;
   display: flex;
-  padding-top: 50px;
-  font-family: Atarian;
+  padding-top: 30px;
 }
 
 article i.icon{
