@@ -201,7 +201,7 @@ img.graph{
 
 /* Containers */
 
-article.container.row{
+article.container-fluid.row{
   margin: 0 auto;
 }
 
@@ -225,8 +225,12 @@ article .row{
   justify-content: center;
 }
 
-section.container{
+section.container-fluid{
   margin-bottom: 70px;
+}
+
+section.objectives div.col-md-2{
+  width: 370px;
 }
 /* Containers */
 
@@ -236,7 +240,7 @@ section.container{
 
 /* Form */
 
-form.container{
+form.container-fluid{
   max-width: 650px;
   margin-top: 30px;
   margin: 0 auto;
@@ -288,7 +292,7 @@ div.video{
 
 /* Carousel */
 
-div#carousel.container.carousel.slide{
+div#carousel.container-fluid.carousel.slide{
   max-width: 90%;
 }
 
@@ -324,7 +328,7 @@ div#carousel.container.carousel.slide{
 /* Cards */
 
 div.card{
-  width: 466px;
+  width: 500px;
 }
 
 div.card.card-1, .card-3{
