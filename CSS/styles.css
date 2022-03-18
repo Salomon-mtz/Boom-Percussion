@@ -232,7 +232,7 @@ img#alien.photo{
 
 /* Containers */
 
-article.container-fluid.row{
+article.container.row{
   margin: 0 auto;
 }
 
@@ -256,7 +256,7 @@ article .row{
   justify-content: center;
 }
 
-section.container-fluid{
+section.container{
   margin-bottom: 70px;
 }
 
@@ -275,7 +275,7 @@ div.links{
 
 /* Form */
 
-form.container-fluid{
+form.container{
   max-width: 650px;
   margin-top: 30px;
   margin: 0 auto;
@@ -327,7 +327,7 @@ div.video{
 
 /* Carousel */
 
-div#carousel.container-fluid.carousel.slide{
+div#carousel.container.carousel.slide{
   max-width: 90%;
 }
 
